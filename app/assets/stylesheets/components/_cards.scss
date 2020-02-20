@@ -1,0 +1,6 @@
+.cards {
+  display: grid;
+  grid-template-columns: ifr ifr ifr ifr;
+  grid-gap: 16px;
+  flex-grow: 1;
+}

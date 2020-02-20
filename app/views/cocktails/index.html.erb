@@ -1,6 +1,16 @@
-<div> <% @cocktails.each do |cocktail| %>
-  <p><%= link_to cocktail.name, cocktail_path(cocktail) %></p>
-  <% end %>
+<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://images.unsplash.com/photo-1507383832450-e75a770318ea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2378&q=80);">
+  <div class="container">
+    <h1>Cheers to life!</h1>
+    <p>Never forget to make a toast!</p>
+  </div>
 </div>
 
-<%= link_to "add a new cocktail", new_cocktail_path %>
+<% @cocktails.each do |cocktail| %>
+<div class="cards">
+  <h2><%= link_to cocktail.name, cocktail_path(cocktail)%>
+  </h2>
+</div>
+<% end %>
+
+<%= link_to "add a new cocktail", new_cocktail_path, class: 'btn btn-dark' %>
+
