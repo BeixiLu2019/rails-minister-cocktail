@@ -1,0 +1,23 @@
+.background-img {
+  background: url("https://images.unsplash.com/photo-1514362113780-401cb55de760?ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60https://images.unsplash.com/photo-1514362113780-401cb55de760?ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  weight: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.form {
+  padding: 83px 0 0 76px;
+  background-color: ghostwhite;
+  opacity: 0.7;
+  width: 600px;
+  height: 600px;
+  display: block;
+  position: absolute;
+}
+
